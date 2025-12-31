@@ -1,0 +1,23 @@
+name: scaffold_gs2
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.6
+  - plyfile=0.8.1
+  - python=3.7.13
+  - pip=22.3.1
+  - pytorch=1.12.1
+  - torchaudio=0.12.1
+  - torchvision=0.13.1
+  - pytorch-scatter
+  - tqdm
+  - pip:
+    - einops -i https://pypi.tuna.tsinghua.edu.cn/simple
+    - wandb -i https://pypi.tuna.tsinghua.edu.cn/simple
+    - lpips -i https://pypi.tuna.tsinghua.edu.cn/simple
+    - laspy -i https://pypi.tuna.tsinghua.edu.cn/simple
+    - submodules/diff-gaussian-rasterization
+    - submodules/simple-knn
