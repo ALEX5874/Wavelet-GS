@@ -12,10 +12,10 @@ We recommend deploying Wavelet-GS on a GPU with **VRAM ≥ 24GB** for stable tra
 ---
 
 ### 1. Clone Repository
-
+```
 git clone https://github.com/ALEX5874/Wavelet-GS.git  
 cd Wavelet-GS
-
+```
 ---
 
 ### 2. Environment Setup
@@ -37,15 +37,15 @@ After completing the Scaffold-GS environment setup, the same environment can be 
 The training pipeline is consistent with standard 3D Gaussian Splatting and Scaffold-GS workflows.
 
 Example command (adjust dataset paths and configs as needed):
-
+```
 python train.py -m output_dir -s your_dataset_dir
-
+```
 ---
 
 ### Rendering
-
+```
 python render.py
-
+```
 ---
 
 ## 📢 Limitations
