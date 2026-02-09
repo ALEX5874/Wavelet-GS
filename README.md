@@ -2,7 +2,8 @@
 This is the offical repository of ACM MM 2025 "Wavelet-GS: 3D Gaussian Splatting with Wavelet Decomposition"
 
 Paper PDF: https://arxiv.org/abs/2507.12498
-![Teaser Image](assets/teaser.png)
+![Teaser Image](assets/overview.png)
+![Teaser Image](assets/framework.png)
 
 ## ⚙️ Setup
 
