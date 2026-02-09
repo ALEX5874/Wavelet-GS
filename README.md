@@ -74,7 +74,7 @@ Multi-resolution 3D reconstruction.
 ## 📜 Citation
 
 If you find this work useful, please consider citing:
-
+```
 @inproceedings{zhao2025wavelet,  
   title={Wavelet-GS: 3D Gaussian Splatting with Wavelet Decomposition},  
   author={Zhao, Beizhen and Zhou, Yifan and Yu, Sicheng and Wang, Zijian and Wang, Hao},  
@@ -82,3 +82,4 @@ If you find this work useful, please consider citing:
   pages={8616--8625},  
   year={2025}  
 }
+```
